@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    text-align: center;
+}
+section{
+    padding: 20px;
+}
+.first-sec{
+    display: flex;
+    justify-content: space-evenly;
+}
+.catList{
+    display: flex;
+    justify-content: space-evenly;
+}
+.catList img{
+    width: 100%;
+}
+footer{
+    text-align: center;
+}
+@media (max-width:640px){
+    .first-sec,.catList{
+        display: flex;
+        flex-direction: column;
+    }
+}
